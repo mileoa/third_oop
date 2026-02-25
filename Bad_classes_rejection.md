@@ -1,17 +1,17 @@
 # Отбраковка плохих классов
-ElementsDeletion, ElementsGeneration, ElementsSwapping, SpecialBonusActivation, PatternMatching - убираю так как инкапсулирует действие, а не структуру данных 
-PlayerInput и GameOver - убираю так как это по большей части класс без методов 
-SpecialBonus - убираю так как этот класс содержит только запросы 
-FieldElement - убираю так как этот класс содержит только запросы 
-Combination - убираю так как этот класс содержит только запросы 
-History - убираю так как класс с небольшим количеством полей и его поведение и структуру можно отдать классу statistic 
-Error - убираю так как класс не содержит методов 
-FieldElement - элемент особо не нужен в данном случае, он содержит одно поле и не содержит методов. При необходимости его без проблем можно будет добавить в будущем 
+ElementsDeletion, ElementsGeneration, ElementsSwapping, SpecialBonusActivation, PatternMatching - убираю так как инкапсулирует действие, а не структуру данных  
+PlayerInput и GameOver - убираю так как это по большей части класс без методов  
+SpecialBonus - убираю так как этот класс содержит только запросы  
+FieldElement - убираю так как этот класс содержит только запросы  
+Combination - убираю так как этот класс содержит только запросы  
+History - убираю так как класс с небольшим количеством полей и его поведение и структуру можно отдать классу statistic  
+Error - убираю так как класс не содержит методов  
+FieldElement - элемент особо не нужен в данном случае, он содержит одно поле и не содержит методов. При необходимости его без проблем можно будет добавить в будущем  
 
-Остались следующие классы: 
-PlayingField
-Statistic
-Console
-Gameplay
-Player
-Также нужно добавить класс GameState, который будет АТД для классов ElementsDeletion, ElementsGeneration, ElementsSwapping, GameOver в паттерне State.
+Остались следующие классы:  
+PlayingField  
+Statistic  
+Console  
+Gameplay  
+Player  
+Также нужно добавить класс GameState, который будет АТД для классов ElementsDeletion, ElementsGeneration, ElementsSwapping, GameOver в паттерне State.  
