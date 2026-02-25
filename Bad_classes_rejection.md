@@ -14,4 +14,4 @@ Statistic
 Console  
 Gameplay  
 Player  
-Также нужно добавить класс GameState, который будет АТД для классов ElementsDeletion, ElementsGeneration, ElementsSwapping, GameOver в паттерне State.  
+Также нужно добавить класс GameState
